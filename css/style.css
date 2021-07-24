@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e9ebee;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color:#39579a;
+    counter-reset: white;
+}
+.nav-container h1{
+    margin: 15px;
+    margin-left: 40px;
+    color: white;
+    font-size: 45px;
+}
+.nav-button{
+    border-radius: 3px;
+    border: none;
+    background-color: #3cb919;
+    color: white;
+    margin-top:28px;
+    font-size: 13px;
+    font-weight:bold;
+    width: 5vw;
+    height: 2.5vw;
+ 
+    
+}
+.nav-button:hover{
+    background-color: #37b115;
+    cursor: pointer;
+}
+
+.container{
+    
+    background-color: white;
+    padding: 30px 40px;
+     width: 40%; 
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 35%);
+    border-radius: 5px;
+    
+    
+}
+
+
+h4{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+   
+
+}
+.email:hover, .password:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid #8ab4f8;
+}
+
+.email,.password{
+    border: 1px solid #ededed;
+    color: #c1c2c9;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 2px;
+    width: 70%;
+    padding: 15px;
+}
+
+
+
+
+
+.login-button{
+    background-color: #4167b2;
+    border: none;
+    width: 76% ;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: #3a5ea7;
+}
+
+/* button{
+    padding: 15px;
+    border-radius: 2px;
+    width: 50%;
+} */
+
+
+a{
+    text-decoration: none;
+    margin: 2px;
+    color: #2f5b91;
+    font-size: 13px;
+   
+}
+a:hover{
+    color: #5e738e;
+}
+ .anchor{
+    text-align: center;
+}
+
+
+
+
